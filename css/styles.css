@@ -1,0 +1,150 @@
+/*--------------------------
+		global
+--------------------------*/
+* {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	color: #fff;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+}
+
+nav,
+header,
+article,
+section,
+footer {
+	display: block;
+}
+
+/*--------------------------
+		nav
+--------------------------*/
+nav {
+	background: #333;
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+
+h1 a {
+	background: url("../img/headline-logo.png") center no-repeat;
+	text-indent: -9999px;
+	height: 84px;
+	width: 333px;
+	float: left;
+	margin-left: 2%;
+}
+
+nav ul {
+	float: right;
+	margin-right: 2%;
+}
+
+
+nav li {
+	float: left;
+	padding-right: 30px;
+}
+
+
+
+/*--------------------------
+		header
+--------------------------*/
+header {
+	float: left;
+
+	background: #222;
+	width: 100%;
+	padding: 5%;
+}
+
+header:after {
+	clear: both;
+}
+
+.header {
+	width: 70%;
+	margin: auto;
+
+}
+
+header h1 {
+	color: #fff;
+	float: left;
+	padding: 5% 0;
+}
+
+header img {
+	float: right;
+}
+
+
+
+/*--------------------------
+		subnav
+--------------------------*/
+.subnav {
+	float: left;
+	background: #292929;
+	width: 100%;
+	padding: 2% 0;
+}
+
+.subnav ul {
+	float: right;
+	width: 70%;
+	margin: auto;
+}
+
+.subnav li {
+	float: left;
+	padding-left: 10px;
+	text-decoration: none;
+}
+
+
+
+/*--------------------------
+		main
+--------------------------*/
+article {
+	float: left;
+	background: #222;
+	width: 100%;
+}
+
+.main {
+	width: 70%;
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
