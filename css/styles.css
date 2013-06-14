@@ -39,18 +39,18 @@ footer {
 		nav
 --------------------------*/
 .logo {
-	padding: 10px;
+	padding: 5px 0 0 10px;
 	display: block;
 	float: left;
 }
 
 nav {
-	background: #445060;
+	background: #9B5A4F;
 }
 
 nav ul {
 	float: right;
-	margin-right: 2%;
+	margin: 2.5% 2% 0 0;
 }
 
 
