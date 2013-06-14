@@ -111,7 +111,7 @@ header img {
 --------------------------*/
 .subnav {
 	background: #292929;
-	padding: 2% 0;
+	padding: 25px 0;
 }
 
 .subnav ul {
@@ -123,13 +123,24 @@ header img {
 
 .subnav li {
 	float: left;
-	padding-right: 50px;
+	padding-right: 30px;
 }
 
-.subnav a {
+.subnav a:link,
+.subnav a:visited {
 	text-decoration: none;
+	padding: 15px;
+
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
 }
 
+.subnav a:hover,
+.subnava a:active {
+	background: #9B5A4F;
+	color: #454546;
+}
 
 
 /*--------------------------
@@ -142,6 +153,7 @@ article {
 .main {
 	width: 70%;
 	margin: auto;
+	padding: 25px 0;
 }
 
 
@@ -150,6 +162,7 @@ article {
 --------------------------*/
 .footer {
 	background: #292929;
+	border-top: 1px solid #4C4643;
 }
 
 footer h3 {
@@ -159,8 +172,8 @@ footer h3 {
 
 footer ul {
 	float: right;
-	margin-top: 13px;
-	list-style: none;
+	margin: 13px 25px 0 0;
+	list-style: none;	
 }
 
 footer li {
