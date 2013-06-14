@@ -14,14 +14,6 @@ h3 {
 	font-weight: 200;
 }
 
-nav,
-header,
-article,
-section,
-footer {
-	display: block;
-}
-
 .group:after {
 	content: "";
 	display: table;
@@ -32,6 +24,7 @@ footer {
 		nav
 --------------------------*/
 nav {
+	float: left;
 	background: #333;
 	width: 100%;
 	position: absolute;
@@ -64,16 +57,12 @@ nav li {
 		header
 --------------------------*/
 header {
-	float: left;
-
 	background: #222;
 	width: 100%;
 	padding: 5%;
 }
 
-header:after {
-	clear: both;
-}
+
 
 .header {
 	width: 70%;
@@ -84,6 +73,7 @@ header:after {
 header h1 {
 	color: #fff;
 	float: left;
+	clear: both;
 	padding: 5% 0;
 }
 
@@ -98,6 +88,7 @@ header img {
 --------------------------*/
 .subnav {
 	float: left;
+	clear: both;
 	background: #292929;
 	width: 100%;
 	padding: 2% 0;
@@ -122,6 +113,7 @@ header img {
 --------------------------*/
 article {
 	float: left;
+	clear: both;
 	background: #222;
 	width: 100%;
 }
