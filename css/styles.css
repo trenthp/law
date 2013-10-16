@@ -5,7 +5,7 @@ body {
 	text-align: center;
 	padding: 0;
 	margin: 0;
-	background-image: url('images/body-background.jpg');
+	background-image: url('../img/body-background.jpg');
 	background-repeat: repeat-x;
 	background-color: #38322C;
 }
@@ -47,7 +47,7 @@ img {
 	width: 100%;
 	height: 41px;
 	clear: both;
-	background-image: url('images/header-background.jpg');
+	background-image: url('../img/header-background.jpg');
 	background-repeat: repeat-x;
 }
 #header-content {
@@ -117,7 +117,7 @@ img {
 	width: 233px;
 	color: #38322C;
 	text-decoration: none;
-	background: url('images/header-menu-background.png') repeat;
+	background: url('../img/header-menu-background.png') repeat;
 }
 #nav ul a {
 	background-image: none;
@@ -279,7 +279,7 @@ img.wp-smiley {
 	min-height: 625px;
 	margin: 0 0 -15px 0;
 	padding: 0;
-	background-image: url('img/homepage-background.png');
+	background-image: url('../img/homepage-background.png');
 	letter-spacing: 1px;
 }
 #left-wrapper {
@@ -456,7 +456,7 @@ img.wp-smiley {
 	width: 941px;
 	margin: 0 0 -15px 0;
 	padding: 0;
-	background-image: url('img/homepage-background.png');
+	background-image: url('../img/homepage-background.png');
 	letter-spacing: 1px;
 }
 #blog-left-wrapper {
@@ -871,7 +871,7 @@ img.wp-smiley {
 	float: left;
 	width: 146px;
 	height: 19px;
-	background-image: url('images/search-input-background.jpg');
+	background-image: url('../img/search-input-background.jpg');
 	background-repeat: no-repeat;
 	padding: 8px 11px 0 11px;
 	margin: 0;
@@ -887,7 +887,7 @@ img.wp-smiley {
 	margin: 0;
 	padding: 0;
 	border: 0px;
-	background-image: url('images/search-button-background.jpg');
+	background-image: url('../img/search-button-background.jpg');
 	background-repeat: no-repeat;
 }
 div.wpcf7-validation-errors, .div.wpcf7-mail-sent-ok, .div.wpcf7-mail-sent-ng, .div.wpcf7-spam-blocked {
@@ -960,7 +960,7 @@ div.wpcf7-response-output {
 	width: 100%;
 	height: 515px;
 	clear: both;
-	background: #23201b url('images/footer-background.jpg') repeat-x;
+	background: #23201b url('../img/footer-background.jpg') repeat-x;
 }
 #footer-content {
 	position: relative;
@@ -1007,7 +1007,7 @@ div.wpcf7-response-output {
 	padding: 9px 12px 0 12px;
 	font-size: 11px;
 	color: #FFFFFF;
-	background-image: url('images/contact-form-input.jpg');
+	background-image: url('../img/contact-form-input.jpg');
 	background-repeat: no-repeat;
 	border: 0;
 	letter-spacing: 1px;
@@ -1019,7 +1019,7 @@ div.wpcf7-response-output {
 	padding: 9px 12px 0 12px;
 	font-size: 11px;
 	color: #FFFFFF;
-	background-image: url('images/contact-form-textarea.jpg');
+	background-image: url('../img/contact-form-textarea.jpg');
 	background-repeat: no-repeat;
 	border: 0;
 	letter-spacing: 1px;
@@ -1037,7 +1037,7 @@ div.wpcf7-response-output {
 	text-transform: uppercase;
 	text-align: center;
 	color: #FFFFFF;
-	background-image: url('images/contact-form-button.jpg');
+	background-image: url('../img/contact-form-button.jpg');
 	background-repeat: no-repeat;
 	border: 0;
 	letter-spacing: 0.5px
