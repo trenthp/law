@@ -94,7 +94,7 @@ img {
 	padding: 0;
 	font-size: 12px;
 	font-weight: bold;
-	color: #38322C;
+	color: #fff;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	text-align: center;
@@ -114,35 +114,25 @@ img {
 #nav a {
 	display: block;
 	width: 233px;
-	color: #38322C;
+	color: #fff;
 	text-decoration: none;
-	background: url('../img/header-menu-background.png') repeat;
+	background: rgba(0,0,0,.5);
 }
 #nav ul a {
-	background-image: none;
 	letter-spacing: 1px;
-	color: #9B5102;
+	color: #fff;
 }
 #nav li {
 	float: left;
 	width: 233px;
-	border: 1px solid #ECEDEC;
 	line-height: 24px;
+	border: 1px solid rgba(0,0,0,.4);
 }
 #nav ul li {
 	float: left;
 	width: 234px;
 	border: 0px;
 	line-height: 24px;
-}
-#nav li.current_page_item {
-	background-color: #FFFFFF;
-}
-#nav ul li.current_page_item {
-	background-color: #585552;
-}
-#nav ul li.current_page_item a {
-	color: #FFFFFF;
 }
 #nav li ul {
 	position: absolute;
@@ -152,22 +142,21 @@ img {
 	font-weight: bold;
 }
 #nav li:hover {
-	background-color: #FFFFFF;
+	background: rgba(0,0,0,.5);
 }
 #nav ul li:hover {
-	background-color: #585552;
 }
 #nav ul li a:hover {
-	color: #FFFFFF;
+	color: #fff;
 }
 #nav li:hover ul {
 	left: auto;
-	background-color: #FFFFFF;
+	background: rgba(0,0,0,.5);
 	z-index: 1000;
 }
 #nav li:hover ul, #nav li.sfhover ul {
 	left: auto;
-	background-color: #FFFFFF;
+	background: rgba(0,0,0,.5);
 }
 /* CONTENT */
 
