@@ -51,14 +51,41 @@ header {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height: 500px;
+}
+
+.headerimage {
+	float: left;
+	padding: 5%;
+	width: 90%;
+}
+
+header ul {
+	float: right;
+	list-style: none;
+}
+
+header li {
+	float: left;
+}
+
+header a {
+	color: #fff;
+	text-decoration: none;
+	
+	margin-left: 5%;
 }
 
 
 /*--------------------------
 		nav
 --------------------------*/
+nav {
+	float: right;
+}
 
+nav li {
+	float: left;
+}
 
 /*--------------------------
 		subnav
