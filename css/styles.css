@@ -1,0 +1,85 @@
+body {
+	background: #555;
+	color: #fff;
+}
+
+
+.heroimg {
+	background: url('../img/vancouver2.jpg') no-repeat center center;
+	background-size: cover
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	overflow: hidden;
+}
+
+
+/*
+.section.header.full-page {
+	position: relative;
+	height: 100%;
+	background-repeat: no-repeat;
+}
+
+.section.header {
+	padding-top: 0px;
+	padding-bottom: 218px;
+	background-image: url('../img/Vancouver_Washington.jpg');
+	background-position: 50% 50%;
+	background-size: cover;
+}
+*/
+
+header h1,
+header h3,
+header h5 {
+	color: #e74d48;
+	font-family: 'garamond', serif;
+	padding: 0;
+	margin: 0;
+	line-height: 100%;
+}
+
+.linehead {
+	margin: 10% 0;
+}
+
+[data-magellan-expedition] {
+	background: none;
+}
+
+.sub-nav dt a, .sub-nav dd a, .sub-nav li a {
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
