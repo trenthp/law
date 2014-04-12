@@ -7,13 +7,18 @@ body {
 	font-family: 'open sans', sans-serif;
 }
 
-.parfait1,
 .parfait2,
-.parfait3 {
+.parfait3,
+.parfait4 {
 	padding: 5% 0;
 }
 
-.parfait2 {
+.parfait1 {
+	background: #BC3B3B;
+	padding: 2% 0;
+}
+
+.parfait3 {
 	background: #EFEFF0;
 }
 
@@ -29,6 +34,10 @@ h4 {
 h5 {
 	color: #82807F;
 	font-weight: 600;
+}
+
+h6 {
+		color: #EFEFF0;
 }
 
 /*-------------------------------------
@@ -74,7 +83,7 @@ header h5 {
 header h3,
 header h5 {
 	font-family: 'open sans', sans-serif;
-	color: #fff;
+	color: #EFEFF0;
 }
 
 header h1 {
