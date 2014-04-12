@@ -1,11 +1,43 @@
+/*-------------------------------------
+	Global
+-------------------------------------*/
 body {
-	background: #555;
-	color: #fff;
+	background: #DEDEDD;
+	color: #111314;
+	font-family: 'open sans', sans-serif;
 }
 
+.parfait1,
+.parfait2,
+.parfait3 {
+	padding: 5% 0;
+}
+
+.parfait2 {
+	background: #EFEFF0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: #BC3B3B;
+	font-family: 'garamond', serif;
+	font-weight: 700;
+}
+
+h5 {
+	color: #82807F;
+	font-weight: 600;
+}
+
+/*-------------------------------------
+	Header
+-------------------------------------*/
 
 .heroimg {
-	background: url('../img/vancouver2.jpg') no-repeat center center;
+	/*background: url('../img/vancouver3.jpg') no-repeat center center;*/
+	background: #111314;
 	background-size: cover
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -33,30 +65,90 @@ body {
 header h1,
 header h3,
 header h5 {
-	color: #e74d48;
-	font-family: 'garamond', serif;
+	font-weight: 100;
 	padding: 0;
 	margin: 0;
 	line-height: 100%;
 }
 
-.linehead {
-	margin: 10% 0;
-}
-
-[data-magellan-expedition] {
-	background: none;
-}
-
-.sub-nav dt a, .sub-nav dd a, .sub-nav li a {
+header h3,
+header h5 {
+	font-family: 'open sans', sans-serif;
 	color: #fff;
 }
 
+header h1 {
+	font-family: 'garamond', serif;
+	font-size: 4em;
+}
+
+.linehead {
+	margin: 10% 0 10% 0;
+}
+
+/*-------------------------------------
+	Nav
+-------------------------------------*/
+
+[data-magellan-expedition] {
+background: #111314;
+}
+
+.sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
+	border-bottom: 1px solid #fff;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	font-weight: normal;
+	background: #111314;
+	padding: 0;
+	cursor: default;
+	color: white;
+}
+
+.sub-nav dt.active a:hover, .sub-nav dd.active a:hover, .sub-nav li.active a:hover {
+background: #111314;
+}
+
+.sub-nav dt a:hover, .sub-nav dd a:hover, .sub-nav li a:hover {
+color: #DEDEDD;
+}
+
+/*-------------------------------------
+	What We Do
+-------------------------------------*/
+
+.accordion dd > a {
+	background: #DEDEDD;
+	color: #111314;
+}
+
+.accordion dd > a:hover {
+	color: #BC3B3B;
+	background: #DEDEDD;
+}
+
+.accordion .content.active {
+	background: #DEDEDD;
+	color: #111314;
+	padding: 1% 0 5% 5%;
+}
 
 
 
+/*-------------------------------------
+	Who We Are
+-------------------------------------*/
+.whoweare section {
+	margin: 5% auto;
+}
 
+.whoweare img {
+	width: 100%;
+}
 
+/*-------------------------------------
+	Contact Us
+-------------------------------------*/
 
 
 
