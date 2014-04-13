@@ -55,7 +55,7 @@ h6 {
 -------------------------------------*/
 .section.header {
 	padding-top: 0px;
-	padding-bottom: 25%;
+	padding-bottom: 20%;
 	background-image: url('../img/vancouver4.jpg');
 	background-position: 50% 50%;
 	-webkit-background-size: cover;
@@ -184,7 +184,7 @@ color: #DEDEDD;
 -------------------------------------*/
 
 
-footer a {
+footer h2 a {
 	color: #EFEFF0;
 	font-size: 2rem;
 	border: 2px solid #EFEFF0;
@@ -200,7 +200,11 @@ footer p {
 	margin-bottom: 0;
 }
 
-
+#gmap {
+	height: 200px;
+	width: 100%;
+	margin-top: 20px;
+}
 
 
 
