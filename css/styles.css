@@ -3,8 +3,8 @@
 -------------------------------------*/
 body {
 	background: #DEDEDD;
-	color: #111314;
-	font-family: 'open sans', sans-serif;
+	color: #82807F;
+	font-family: 'Quicksand', sans-serif;
 }
 
 .parfait2,
@@ -18,8 +18,13 @@ body {
 	padding: 2% 0;
 }
 
+
 .parfait3 {
-	background: #EFEFF0;
+	background: url('../img/diagonal-noise.png'), #EFEFF0;
+}
+
+.parfait4 {
+	background: #82807F;
 }
 
 h1,
@@ -37,15 +42,16 @@ h5 {
 }
 
 h6 {
-		color: #EFEFF0;
+	color: #EFEFF0;
+	font-family: 'Quicksand', sans-serif;
 }
 
 /*-------------------------------------
 	Header
 -------------------------------------*/
-
+/*
 .heroimg {
-	/*background: url('../img/vancouver3.jpg') no-repeat center center;*/
+	background: url('../img/vancouver3.jpg') no-repeat center center;
 	background: #111314;
 	background-size: cover
 	-webkit-background-size: cover;
@@ -53,23 +59,24 @@ h6 {
 	background-size: cover;
 	overflow: hidden;
 }
+*/
 
 
-/*
 .section.header.full-page {
-	position: relative;
-	height: 100%;
-	background-repeat: no-repeat;
+
+
 }
 
 .section.header {
 	padding-top: 0px;
-	padding-bottom: 218px;
-	background-image: url('../img/Vancouver_Washington.jpg');
+	padding-bottom: 25%;
+	background-image: url('../img/vancouver.jpg');
 	background-position: 50% 50%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
 	background-size: cover;
 }
-*/
+
 
 header h1,
 header h3,
@@ -140,6 +147,7 @@ color: #DEDEDD;
 	background: #DEDEDD;
 	color: #111314;
 	padding: 1% 0 5% 5%;
+	font-weight: 400;
 }
 
 
@@ -155,12 +163,39 @@ color: #DEDEDD;
 	width: 100%;
 }
 
+.bio {
+	background: #EFEFF0;
+	padding: 20px;
+}
+
+.whoweare h4 {
+	font-size: 2rem;
+}
+
+.whoweare h5 {
+	font-size: 1.5rem;
+}
+
 /*-------------------------------------
 	Contact Us
 -------------------------------------*/
 
 
+footer a {
+	color: #EFEFF0;
+	font-size: 2rem;
+	border: 2px solid #EFEFF0;
+	padding: 10px;
+}
 
+footer a:hover {
+	color: #DEDEDD;
+}
+
+footer p {
+	color: #EFEFF0;
+	margin-bottom: 0;
+}
 
 
 
