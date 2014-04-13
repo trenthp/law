@@ -2,9 +2,8 @@
 	Global
 -------------------------------------*/
 body {
-	background: #DEDEDD;
 	color: #82807F;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 .parfait2,
@@ -16,6 +15,10 @@ body {
 .parfait1 {
 	background: #BC3B3B;
 	padding: 2% 0;
+}
+
+.parfait2 {
+	background: #DEDEDD;
 }
 
 
@@ -37,36 +40,19 @@ h4 {
 }
 
 h5 {
+	font-family: 'Raleway', sans-serif;
 	color: #82807F;
 	font-weight: 600;
 }
 
 h6 {
 	color: #EFEFF0;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 /*-------------------------------------
 	Header
 -------------------------------------*/
-/*
-.heroimg {
-	background: url('../img/vancouver3.jpg') no-repeat center center;
-	background: #111314;
-	background-size: cover
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	overflow: hidden;
-}
-*/
-
-
-.section.header.full-page {
-
-
-}
-
 .section.header {
 	padding-top: 0px;
 	padding-bottom: 25%;
@@ -89,13 +75,21 @@ header h5 {
 
 header h3,
 header h5 {
-	font-family: 'open sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	color: #EFEFF0;
 }
 
 header h1 {
 	font-family: 'garamond', serif;
-	font-size: 4em;
+	font-size: 6rem;
+}
+
+header h3 {
+	font-size: 2.5rem;
+}
+
+header h5 {
+	font-size: 2rem;
 }
 
 .linehead {
@@ -105,7 +99,6 @@ header h1 {
 /*-------------------------------------
 	Nav
 -------------------------------------*/
-
 [data-magellan-expedition] {
 background: #111314;
 }
@@ -129,13 +122,23 @@ background: #111314;
 color: #DEDEDD;
 }
 
+.sub-nav dt, .sub-nav dd, .sub-nav li {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+
 /*-------------------------------------
 	What We Do
 -------------------------------------*/
-
 .accordion dd > a {
 	background: #DEDEDD;
 	color: #111314;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+
+.accordion dd.active > a {
+	background: #DEDEDD;
 }
 
 .accordion dd > a:hover {
