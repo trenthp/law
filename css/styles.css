@@ -275,7 +275,11 @@ footer h5 {
 	}
 
 	header h1 {
-		font-size: 4.25rem;
+		font-size: 3rem;
+	}
+
+	header h3 {
+		font-size: 1.75rem;
 	}
 
 	footer h2 a {
