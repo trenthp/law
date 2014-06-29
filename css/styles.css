@@ -182,8 +182,6 @@ color: #DEDEDD;
 /*-------------------------------------
 	Contact Us
 -------------------------------------*/
-
-
 footer h2 a {
 	color: #EFEFF0;
 	font-size: 2rem;
@@ -206,8 +204,85 @@ footer p {
 	margin-top: 20px;
 }
 
+footer h5 {
+	color: #EFEFF0;
+	text-align: center;
+	padding-top: 100px;
+}
 
 
+/*-------------------------------------
+	MEDIA QUERIES
+-------------------------------------*/
+
+/*-----------X-Large Screen------------*/
+@media screen and (min-width: 1400px) {
+
+	.section.header {
+		background-image: url('../img/vancouver1.jpg');
+	}
+
+}
+
+/*-----------Large Screen------------*/
+@media screen and (min-width: 1200px) {
+
+	.section.header {
+		background-image: url('../img/vancouver2.jpg');
+	}
+
+}
+
+/*-----------Medium Screen------------*/
+@media screen and (max-width: 1200px) {
+
+	.section.header {
+		background-image: url('../img/vancouver3.jpg');
+	}
+
+}
+
+/*-----------Small Screen------------*/
+@media screen and (max-width: 800px) {
+
+	.section.header {
+		background-image: url('../img/vancouver4.jpg');
+	}
+
+	header h1 {
+		font-size: 5rem;
+	}
+
+}
+
+
+/*-----------Smaller Screen------------*/
+@media screen and (max-width: 500px) {
+
+	footer h2 a {
+		font-size: 1.5rem;
+	}
+
+}
+
+
+
+/*-----------Smallest Screen------------*/
+@media screen and (max-width: 400px) {
+
+	.section.header {
+		background-image: url('../img/vancouver4.jpg');
+	}
+
+	header h1 {
+		font-size: 4.5rem;
+	}
+
+	footer h2 a {
+		font-size: 1.25rem;
+	}
+
+}
 
 
 
