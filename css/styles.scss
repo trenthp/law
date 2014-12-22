@@ -58,7 +58,7 @@ h6 {
 .section.header {
 	padding-top: 0px;
 	padding-bottom: 20%;
-	background-image: url('../img/vancouver4.jpg');
+	background-image: url('../img/group.jpg');
 	background-position: 50% 50%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -73,6 +73,7 @@ header h5 {
 	padding: 0;
 	margin: 0;
 	line-height: 100%;
+	text-shadow: 1px 1px 1px #000;
 }
 
 header h3,
@@ -145,7 +146,7 @@ color: #DEDEDD;
 
 .accordion dd > a:hover {
 	color: #BC3B3B;
-	background: #DEDEDD;
+	background: #fff;
 }
 
 .accordion .content.active {
@@ -217,39 +218,9 @@ footer h5 {
 	MEDIA QUERIES
 -------------------------------------*/
 
-/*-----------X-Large Screen------------*/
-@media screen and (min-width: 1400px) {
-
-	.section.header {
-		background-image: url('../img/vancouver1.jpg');
-	}
-
-}
-
-/*-----------Large Screen------------*/
-@media screen and (min-width: 1200px) {
-
-	.section.header {
-		background-image: url('../img/vancouver2.jpg');
-	}
-
-}
-
-/*-----------Medium Screen------------*/
-@media screen and (max-width: 1200px) {
-
-	.section.header {
-		background-image: url('../img/vancouver3.jpg');
-	}
-
-}
-
 /*-----------Small Screen------------*/
 @media screen and (max-width: 800px) {
 
-	.section.header {
-		background-image: url('../img/vancouver4.jpg');
-	}
 
 	header h1 {
 		font-size: 5rem;
@@ -272,9 +243,6 @@ footer h5 {
 /*-----------Smallest Screen------------*/
 @media screen and (max-width: 400px) {
 
-	.section.header {
-		background-image: url('../img/vancouver4.jpg');
-	}
 
 	header h1 {
 		font-size: 3rem;

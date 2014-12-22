@@ -11,6 +11,17 @@ $(document).ready(function(){
 		}]
 	}).Load();
 
+
+	//$('.panel1,.panel2,.panel3,.panel4').on('click', function(){
+	//	if ($(this).hasClass('active')){
+	//	  $('#accordian-sign').html('<h6>- minimize</h6>'); 
+	//	}else{
+	//	  $('#accordian-sign').html('<h6>+ maxamize</h6>'); 
+	//	}	
+	//});
+
+	
+
 	console.log('Page Loaded. Lets Do this!');
 
 });
