@@ -5953,8 +5953,9 @@ h5 {
   font-weight: 600; }
 
 h6 {
-  color: #EFEFF0;
-  font-family: 'Raleway', sans-serif; }
+  color: #82807F;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600; }
 
 /*-------------------------------------
 	Header
@@ -6024,6 +6025,12 @@ header h5 {
 /*-------------------------------------
 	What We Do
 -------------------------------------*/
+.parfait1 p {
+  color: #EFEFF0;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.4;
+  margin-bottom: 0; }
+
 .accordion dd > a {
   background: #DEDEDD;
   color: #111314;
@@ -6061,6 +6068,12 @@ header h5 {
 
 .whoweare h5 {
   font-size: 1.5rem; }
+
+.bio p {
+  margin-bottom: 0; }
+
+.bio h6 {
+  margin-top: 1.25rem; }
 
 /*-------------------------------------
 	Contact Us

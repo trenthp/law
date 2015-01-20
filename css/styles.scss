@@ -48,8 +48,9 @@ h5 {
 }
 
 h6 {
-	color: #EFEFF0;
+	color: #82807F;
 	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
 }
 
 /*-------------------------------------
@@ -133,6 +134,13 @@ color: #DEDEDD;
 /*-------------------------------------
 	What We Do
 -------------------------------------*/
+.parfait1 p {
+	color: #EFEFF0;
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.4;
+	margin-bottom: 0;
+}
+
 .accordion dd > a {
 	background: #DEDEDD;
 	color: #111314;
@@ -180,6 +188,14 @@ color: #DEDEDD;
 
 .whoweare h5 {
 	font-size: 1.5rem;
+}
+
+.bio p {
+	margin-bottom: 0;
+}
+
+.bio h6 {
+	margin-top: 1.25rem;
 }
 
 /*-------------------------------------
