@@ -61,7 +61,8 @@ a {
     .navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:active {
       outline: none; }
   .navbar-custom .navbar-brand {
-    font-weight: 700; }
+    font-weight: 400;
+    font-family: 'Playfair Display', serif; }
     .navbar-custom .navbar-brand:focus {
       outline: none; }
   .navbar-custom a {
