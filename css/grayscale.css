@@ -12,7 +12,7 @@ html {
 h1 {
   margin: 0 0 35px;
   text-transform: uppercase;
-  font-family: 'Playfair Display', serif;
+  font-family: 'adobe-garamond-pro', 'Playfair Display', serif;
   font-weight: 700;
   letter-spacing: 1px; }
 
@@ -22,7 +22,7 @@ h4,
 h5,
 h6 {
   margin: 0 0 35px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'adobe-garamond-pro', 'Playfair Display', serif;
   font-weight: 700;
   letter-spacing: 1px; }
 
@@ -52,7 +52,7 @@ a {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
-  font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
   background-color: black; }
   .navbar-custom .navbar-toggle {
     padding: 4px 6px;
@@ -62,7 +62,7 @@ a {
       outline: none; }
   .navbar-custom .navbar-brand {
     font-weight: 400;
-    font-family: 'Playfair Display', serif; }
+    font-family: 'adobe-garamond-pro', 'Playfair Display', serif; }
     .navbar-custom .navbar-brand:focus {
       outline: none; }
   .navbar-custom a {
