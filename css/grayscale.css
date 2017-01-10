@@ -180,6 +180,11 @@ a {
   100% {
     -moz-transform: scale(1);
     transform: scale(1); } }
+.badgesection {
+  background-color: #F2F2F2;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
 .content-section {
   padding-top: 100px; }
 
@@ -339,7 +344,6 @@ body {
   width: 100px; }
 
 .socialp {
-  margin-top: 35px;
   margin-bottom: 70px; }
 
 .lawpay {
