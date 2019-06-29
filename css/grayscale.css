@@ -345,6 +345,8 @@ body {
 
 .socialp {
   margin-bottom: 70px; }
+  .socialp .btn-lg {
+    font-size: 14px; }
 
 .lawpay {
   margin-top: 2%; }
