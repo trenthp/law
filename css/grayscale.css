@@ -183,7 +183,15 @@ a {
 .badgesection {
   background-color: #F2F2F2;
   padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-bottom: 30px; }
+  .badgesection h3 {
+    margin-bottom: 20px; }
+  .badgesection .badgeNathan {
+    padding-left: 0;
+    padding-right: 30px; }
+  .badgesection .badgeRyan {
+    padding-left: 30px;
+    padding-right: 0; }
 
 .content-section {
   padding-top: 100px; }
@@ -345,11 +353,12 @@ body {
 
 .socialp {
   margin-bottom: 70px; }
-  .socialp .btn-lg {
-    font-size: 14px; }
+  @media (max-width: 400px) {
+    .socialp .btn-lg {
+    font-size: 14px; } }
 
 .lawpay {
-  margin-top: 2%; }
+  margin-top: 60px; }
 
 .address {
   margin-top: 60px; }
@@ -443,6 +452,23 @@ footer p {
 @media (max-width: 767px) {
   .intro .intro-body {
     padding-top: 0px;
-    padding-bottom: 150px; } }
+    padding-bottom: 150px; }
+
+  .badgesection .col-sm-6 {
+    margin-bottom: 42px; }
+
+  .badgesection h3 {
+    margin-bottom: 0; }
+
+  .badgesection .badgeNathan {
+    padding-left: 15px;
+    padding-right: 15px; }
+
+  .badgesection .badgeRyan {
+    padding-left: 15px;
+    padding-right: 15px; }
+
+  .lawpay {
+    margin-top: 24px; } }
 
 /*# sourceMappingURL=grayscale.css.map */
