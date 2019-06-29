@@ -620,7 +620,15 @@ footer {
     }
 }
 
+@media(max-width:650px) {
+    .prelogo, .postlogo {
+        width: 10%;
+    }
 
+    .herologo {
+        width: 80%;
+    }
+}
 
 
 
