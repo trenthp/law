@@ -17,7 +17,7 @@ html {
 h1 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: 'Playfair Display', serif;
+    font-family: 'EB Garamond', serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -28,7 +28,7 @@ h4,
 h5,
 h6 {
     margin: 0 0 35px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'EB Garamond', serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -64,7 +64,7 @@ a {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(white, 0.3);
     text-transform: uppercase;
-    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Open Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: black;
     .navbar-toggle {
         padding: 4px 6px;
@@ -77,7 +77,7 @@ a {
     }
     .navbar-brand {
         font-weight: 400;
-        font-family: 'Playfair Display', serif;
+        font-family: 'EB Garamond', serif;
         &:focus {
             outline: none;
         }
@@ -144,7 +144,7 @@ a {
     -o-background-size: cover;
     .intro-body {
         display: table-cell;
-        padding-top: 150px;
+        padding-top: 80px;
         .brand-heading {
             font-size: 40px;
         }
@@ -240,6 +240,23 @@ a {
     }
 }
 
+.badgesection {
+  background-color: #F2F2F2;
+  padding-top: 20px;
+  padding-bottom: 30px; 
+
+    h3 {
+        margin-bottom: 20px; 
+    }
+
+    @media(max-width:767px) {
+        .badgeRyan {
+            margin-top: 40px;
+        }
+    }
+}
+  
+
 .content-section {
     padding-top: 100px;
 }
@@ -274,7 +291,7 @@ a {
 
 .btn {
     text-transform: uppercase;
-    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -447,6 +464,23 @@ body {
     margin-bottom: 0px;
 }
 
+.avvo-content {
+    width: 100px; 
+}
+
+.socialp {
+    margin-bottom: 70px; 
+    }
+    
+    @media (max-width: 400px) {
+    .socialp .btn-lg {
+        font-size: 14px; 
+    } 
+}
+
+.lawpay {
+  margin-top: 60px; }
+
 .address {
     margin-top: 60px;
 
@@ -565,14 +599,26 @@ footer {
 }
 
 @media(max-width:767px) {
+    .intro {
+        margin-top: 48px;
+        padding-top: 16px;
+        padding-bottom: 124px;
+    }
+
     .intro .intro-body {
-        padding-top: 0px;
-        padding-bottom: 150px;
+        padding: 16px 0 200px 0;
     }
 }
     
+@media(min-width:1600px) {
+    .intro {
+        height: 100vh;
+    }
 
-
+    .prelogo {
+        width: 0;
+    }
+}
 
 
 

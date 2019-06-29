@@ -12,7 +12,7 @@ html {
 h1 {
   margin: 0 0 35px;
   text-transform: uppercase;
-  font-family: 'adobe-garamond-pro', 'Playfair Display', serif;
+  font-family: 'EB Garamond', serif;
   font-weight: 700;
   letter-spacing: 1px; }
 
@@ -22,7 +22,7 @@ h4,
 h5,
 h6 {
   margin: 0 0 35px;
-  font-family: 'adobe-garamond-pro', 'Playfair Display', serif;
+  font-family: 'EB Garamond', serif;
   font-weight: 700;
   letter-spacing: 1px; }
 
@@ -52,7 +52,7 @@ a {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
-  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: 'Open Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
   background-color: black; }
   .navbar-custom .navbar-toggle {
     padding: 4px 6px;
@@ -62,7 +62,7 @@ a {
       outline: none; }
   .navbar-custom .navbar-brand {
     font-weight: 400;
-    font-family: 'adobe-garamond-pro', 'Playfair Display', serif; }
+    font-family: 'EB Garamond', serif; }
     .navbar-custom .navbar-brand:focus {
       outline: none; }
   .navbar-custom a {
@@ -113,7 +113,7 @@ a {
   -o-background-size: cover; }
   .intro .intro-body {
     display: table-cell;
-    padding-top: 150px; }
+    padding-top: 80px; }
     .intro .intro-body .brand-heading {
       font-size: 40px; }
     .intro .intro-body .intro-text {
@@ -186,12 +186,9 @@ a {
   padding-bottom: 30px; }
   .badgesection h3 {
     margin-bottom: 20px; }
-  .badgesection .badgeNathan {
-    padding-left: 0;
-    padding-right: 30px; }
-  .badgesection .badgeRyan {
-    padding-left: 30px;
-    padding-right: 0; }
+  @media (max-width: 767px) {
+    .badgesection .badgeRyan {
+      margin-top: 40px; } }
 
 .content-section {
   padding-top: 100px; }
@@ -219,7 +216,7 @@ a {
     margin-top: 250px; } }
 .btn {
   text-transform: uppercase;
-  font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
   font-weight: 400;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
@@ -353,10 +350,10 @@ body {
 
 .socialp {
   margin-bottom: 70px; }
-  @media (max-width: 400px) {
-    .socialp .btn-lg {
-    font-size: 14px; } }
 
+@media (max-width: 400px) {
+  .socialp .btn-lg {
+    font-size: 14px; } }
 .lawpay {
   margin-top: 60px; }
 
@@ -450,25 +447,18 @@ footer p {
   .contactform {
     margin-top: 50px; } }
 @media (max-width: 767px) {
+  .intro {
+    margin-top: 48px;
+    padding-top: 16px;
+    padding-bottom: 124px; }
+
   .intro .intro-body {
-    padding-top: 0px;
-    padding-bottom: 150px; }
+    padding: 16px 0 200px 0; } }
+@media (min-width: 1600px) {
+  .intro {
+    height: 100vh; }
 
-  .badgesection .col-sm-6 {
-    margin-bottom: 42px; }
-
-  .badgesection h3 {
-    margin-bottom: 0; }
-
-  .badgesection .badgeNathan {
-    padding-left: 15px;
-    padding-right: 15px; }
-
-  .badgesection .badgeRyan {
-    padding-left: 15px;
-    padding-right: 15px; }
-
-  .lawpay {
-    margin-top: 24px; } }
+  .prelogo {
+    width: 0; } }
 
 /*# sourceMappingURL=grayscale.css.map */
